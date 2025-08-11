@@ -1,0 +1,447 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;   
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+
+  
+}
+
+nav{
+    width: 100%;
+    height: 90px;
+    background-color: #dc143c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+ul{
+    display: flex;
+    padding: 12px;
+    margin-right: 40px;
+    
+   
+}
+ul li{
+    list-style: none;
+  
+    
+}
+ul li a{
+    color: white;
+     margin-inline: 20px;
+     font-size: 22px;
+      text-decoration:none;
+     font-weight: 700;
+     transition: all 0.5s;
+     
+
+
+}
+ul li a:hover{
+    color:blanchedalmond;
+    cursor: pointer;
+    
+
+}
+.logo{
+    margin-left: 40px;
+    font-size: 28px;
+     font-weight: 800;
+     color:blanchedalmond;
+}
+.menu{
+    font-size: 40px;
+    color: white;
+    margin-right: 20px;
+    display: none;
+}
+
+.header{
+    width: 100%;
+    height: 900px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+
+    padding-bottom: 50px;
+}
+.hammadimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-right: 20px;
+ 
+}
+.hammadimg img{
+    width: 400px;
+    height: 400px;
+}
+.text{
+    
+    padding: 20px;
+}
+
+.btn{
+    padding: 15px;
+    margin-top: 80px;
+    font-size: 20px;
+    width: 170px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color:#dc143c;
+    border-color: #dc143c;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+.btn2{
+    padding: 8px;
+  
+    font-size: 20px;
+    width: 150px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color:#dc143c;
+    border: 1px solid #dc143c;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+.btn2:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    margin-top: 50px;
+
+}
+.skills h1{
+    font-weight: 500;
+    font-size: 40px;
+    text-decoration: underline;
+
+}
+.container{
+    width:100%;
+    height: 600px;
+  
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+/* About section */
+.aboutsection{
+    width: 100%;
+    height: 900px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row-reverse;
+
+    padding-bottom: 50px;
+}
+.hammadimg2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 20px;
+ 
+}
+.hammadimg2 img{
+    width: 400px;
+    height: 400px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+
+   
+}
+.about h1{
+     font-weight: 500;
+    font-size: 40px;
+    text-decoration: underline;
+   
+}
+
+ /* skill section */
+.skillcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  
+ 
+    margin-top: 50px;
+    width: 80%;
+    height: auto;
+  
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+
+}
+.skilcon{
+    width: 400px;
+    height: 300px;
+   background-color:rgb(236, 233, 230);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.projectsec{
+    width: 400px;
+    height: auto;
+   background-color:rgb(236, 233, 230);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+    overflow: hidden;
+    
+}
+
+
+.footer{
+    width: 100%;
+    height: 180px;
+    background-color: #dc143c;
+    color: white;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+
+}
+
+@media (max-width:1020px) {
+    .hammadimg img{
+        width: 300px;
+        height: 300px;
+
+    }
+    .hammadimg{
+        padding-top: 70px;
+        padding-right: 0px;
+    }
+    .hammadimg2 img{
+        width: 300px;
+        height: 300px;
+
+    }
+    .hammadimg2{
+        padding-top: 70px;
+        padding-left: 0%;
+    }
+    .about{
+        padding-top: 80px;
+       
+    }
+    .skillcontainer{
+        width: 95%;
+    }
+}
+
+@media (max-width:768px) {
+    .nav-links{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+       background-color: #dc143c;
+        padding: 25px;
+        top: 80px;
+        left: 0;
+    }
+    .nav-links li {
+        padding: 12px 0px;
+        color: white;
+        list-style: none;
+        text-decoration: none;
+    }
+    .nav-links.active{
+        display: block;
+
+    }
+    .menu{
+        display: flex;
+    }
+    .header{
+        padding-top: 200px;
+        flex-direction: column;
+        height: auto;
+    }
+    .aboutsection{
+        padding-top: 200px;
+        flex-direction: column;
+        height: auto;
+
+    }
+    .text{
+        padding-left: 20px;
+    }
+    .span1{
+        font-size:40px;
+    }
+    .skillcontainer{
+        width: 95%;
+    }
+    
+}
+
+
+/* form.css */
+
+.form-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem; /* ~36px */
+  margin-top: 120px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .form-wrapper {
+    flex-direction: row;
+  }
+}
+
+.form-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .form-container {
+    width: 800px;
+    height: 457px;
+  }
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .input-group {
+    flex-direction: row;
+  }
+}
+
+.input-field {
+  width: 320px;
+  background-color: #f1f5f9; /* Tailwind's slate-100 */
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.textarea-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-box {
+  width: 320px;
+  height: 207px;
+  background-color: #f1f5f9;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+@media (min-width: 1024px) {
+  .message-box {
+    width: 737px;
+  }
+}
+
+.button-wrapper {
+  width: 100%;
+  height: 100px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .button-container {
+    justify-content: center;
+  }
+}
+
+.submit-button {
+  width: 234px;
+  height: 56px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  background-color:#dc143c;
+  color: white;
+  border: 1px solid #dc143c;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.submit-button:hover {
+  background-color: transparent;
+  color: black;
+}
