@@ -5,9 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio website</title>
-      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="skill.css">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="about.css">
 </head>
 
 <body>
@@ -36,9 +43,20 @@
         <div class="text">
             <h3>Hi I'am</h3>
             <h1><span class="span1">Hammad</span> as a Frontend Developer</h1>
-            <h2>Crafting clean responsive,and user-friendly web experience,Transforming ideas into interactive digital
-                interfaces with code and creativity.</h2>
-            <a href="#project"><button class="btn">Projects</button></a>
+            <h4>Crafting clean responsive,and user-friendly web experience,Transforming ideas into interactive digital
+                interfaces with code and creativity.</h4>
+            <div class="icon">
+                <a href="https://github.com/Hammadabbasi17" target="_blank"><i class="ri-github-fill"></i></a>
+                <a href="https://www.linkedin.com/in/hammad-abbasi-0607422ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank"> <i class="ri-linkedin-box-fill"></i></a>
+
+            </div>
+
+            <div>
+                <a href="#project"><button class="btn">Projects</button></a>
+
+            </div>
+
         </div>
 
         <div class="hammadimg">
@@ -50,29 +68,32 @@
     </div>
 
     <!-- About Section -->
-        <div>
-                <div class="about" id="about">
-                    <h1>About Us</h1>
-                </div>
+    <div>
+        <div class="about" id="about">
+            <h1>About Us</h1>
+        </div>
 
-                <div data-aos="fade-up" data-aos-duration="1000" class="aboutsection" >
-                    <div class="text">
-                        <h2 style="padding-bottom: 60px; font-weight: 700;">I'am Hammad</h2>
-                        <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias sint distinctio rem qui quos totam est
-                            recusandae, eum error repellat! Consectetur amet et sit. Dolore quo laboriosam asperiores placeat quis.
-                        </h3>
-                    </div>
+        <div data-aos="fade-up" data-aos-duration="1000" class="aboutsection">
+            <div class="text">
+                <h2 style="padding-bottom: 60px; font-weight: 700;">I'am Hammad</h2>
+                <h5> developer with a strong focus on turning UI/UX designs from Figma into responsive, high-quality web
+                    applications using Next.js. I specialize in building clean, reusable components and translating
+                    design details into pixel-perfect, user-friendly interfaces. With a passion for performance and
+                    modern web practices, I aim to deliver seamless digital experiences that stay true to the original
+                    design vision.
+                </h5>
+            </div>
 
-                    <div class="hammadimg2">
-                        <img src="hammad.jpg" alt="Hammadimage">
-                    </div>
+            <div class="hammadimg2">
+                <img src="hammad.jpg" alt="Hammadimage">
+            </div>
 
-
-
-                </div>
 
 
         </div>
+
+
+    </div>
 
 
     <!-- Skills Section -->
@@ -81,90 +102,47 @@
     <div class="skills" id="skill">
         <h1 id="skill">Skills</h1>
     </div>
-
-    <div  style="display: flex; justify-content: center; align-items: center; width: 100%; height: auto; padding-bottom: 120px;">
-        <div class="skillcontainer">
-            <!-- HTML -->
-            <div data-aos="fade-up" data-aos-duration="2000" class="skilcon">
-                <div>
-                    <img src="WhatsApp Image 2025-08-11 at 18.38.55_3be2c4f1.jpg" alt="Html">
-                    <h2>HTML</h2>
-                </div>
-                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero qui accusantium obcaecati rem
-                    similique blanditiis sed aliquid quis. Odit, qui? Corrupti itaque perferendis, voluptatibus neque in
-                    exercitationem vel vitae repellat.</h5>
-
-
+    <div class="progressbar">
+        <div class="container">
+            <h5><i class="ri-html5-fill"></i> HTML</h5>
+            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" data-width="90">90%</div>
             </div>
-            <!-- CSS -->
-            <div data-aos="fade-up" data-aos-duration="2000" class="skilcon">
-                <div>
-                    <img src="WhatsApp Image 2025-08-11 at 18.38.55_e4839cb8.jpg" alt="CSS" width="60px" height="60px">
-                    <h2>CSS</h2>
-                </div>
-                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero qui accusantium obcaecati rem
-                    similique blanditiis sed aliquid quis. Odit, qui? Corrupti itaque perferendis, voluptatibus neque in
-                    exercitationem vel vitae repellat.</h5>
-
+            <h5><i class="ri-css3-fill"></i> CSS</h5>
+            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" data-width="75">75%</div>
             </div>
-
-            <!-- Javascript -->
-            <div data-aos="fade-up" data-aos-duration="2000" class="skilcon">
-                <div>
-                    <img src="WhatsApp Image 2025-08-11 at 18.38.56_cd9638df.jpg" alt="Javascript" width="60px"
-                        height="60px">
-                    <h2>JAVASCRIPT</h2>
-                </div>
-                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero qui accusantium obcaecati rem
-                    similique blanditiis sed aliquid quis. Odit, qui? Corrupti itaque perferendis, voluptatibus neque in
-                    exercitationem vel vitae repellat.</h5>
-
-
+            <h5><i class="ri-javascript-fill"></i> JAVASCRIPT</h5>
+            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" data-width="70">70%</div>
             </div>
-            <!-- REACt -->
-            <div data-aos="fade-up" data-aos-duration="2000" class="skilcon">
-                <div>
-                    <img src="WhatsApp Image 2025-08-11 at 18.38.56_049905b0.jpg" alt="react" width="60px"
-                        height="60px">
-                    <h2>REACT</h2>
-                </div>
-                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero qui accusantium obcaecati rem
-                    similique blanditiis sed aliquid quis. Odit, qui? Corrupti itaque perferendis, voluptatibus neque in
-                    exercitationem vel vitae repellat.</h5>
+            <h5><i class="ri-code-s-slash-fill"></i> Python</h5>
+            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" data-width="60">60%</div>
             </div>
-            <!-- Next.js -->
-            <div data-aos="fade-up" data-aos-duration="2000" class="skilcon">
-                <div>
-                    <img src="WhatsApp Image 2025-08-11 at 18.38.57_83548322.jpg" alt="Next.js" width="60px"
-                        height="60px">
-                    <h2>NEXT.JS</h2>
-                </div>
-                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero qui accusantium obcaecati rem
-                    similique blanditiis sed aliquid quis. Odit, qui? Corrupti itaque perferendis, voluptatibus neque in
-                    exercitationem vel vitae repellat.</h5>
+            <h5><i class="ri-reactjs-line"></i> React.js</h5>
+            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" data-width="75">75%</div>
             </div>
-            <!-- Tailwind css -->
-            <div data-aos="fade-up" data-aos-duration="2000" class="skilcon">
-                <div>
-                    <img src="WhatsApp Image 2025-08-11 at 18.38.57_e6252c13.jpg" alt="Tailwind css" width="60px"
-                        height="60px">
-                    <h2>Tailwind Css</h2>
-                </div>
-                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero qui accusantium obcaecati rem
-                    similique blanditiis sed aliquid quis. Odit, qui? Corrupti itaque perferendis, voluptatibus neque in
-                    exercitationem vel vitae repellat.</h5>
+            <h5><i class="ri-nextjs-fill"></i> Next.js</h5>
+            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" data-width="75">75%</div>
             </div>
-
-
-
 
         </div>
-
     </div>
 
 
+
+
     <!-- Projects -->
-    <div class="skills" id="project">
+    <div class="project" id="project">
         <h1 id="skill">Projects</h1>
     </div>
 
@@ -174,94 +152,94 @@
         style="display: flex; justify-content: center; align-items: center; width: 100%; height: auto; padding-bottom: 120px;">
         <div class="skillcontainer">
             <!-- HTML -->
-            <div  data-aos="fade-up" data-aos-duration="2000" class="projectsec">
+            <div data-aos="fade-up" data-aos-duration="2000" class="projectsec">
                 <div style="padding-bottom: 20px;">
-                    <img src="laptop.png" alt="Html" >
+                    <img src="laptop.png" alt="Html">
                 </div>
                 <h3>E-Commerce website</h3>
-                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero qui accusantium obcaecati rem
-                    similique blanditiis sed aliquid quis. </h5>
+                <h6>Browse, compare, and shop—quick and clean.From local brands to global deals,It’s shopping made
+                    simple with just a few keystrokes and feels.</h6>
 
-                    <div style="margin-top: 20px;">
-                        <a href="https://ecommerce-website-68wa.vercel.app/"><button class="btn2">Live Demo</button></a>
-                    </div>
-               
+                <div style="margin-top: 20px;">
+                    <a href="https://ecommerce-website-68wa.vercel.app/"><button class="btn2">Live Demo</button></a>
+                </div>
+
 
             </div>
             <!-- CSS -->
-            <div  data-aos="fade-up" data-aos-duration="2000" class="projectsec">
+            <div data-aos="fade-up" data-aos-duration="2000" class="projectsec">
                 <div style="padding-bottom: 20px;">
-                    <img src="code.png" alt="Html" >
+                    <img src="code.png" alt="Html">
                 </div>
                 <h3>Learning website</h3>
-                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero qui accusantium obcaecati rem
-                    similique blanditiis sed aliquid quis. </h5>
+                <h6>Study anytime—morning, evening, or night.With videos, quizzes, and notes to guide,Learn from
+                    anywhere, let your dreams decide. </h6>
 
-                    <div style="margin-top: 20px;">
-                        <a href="https://figma-website-02.vercel.app/"><button class="btn2">Live Demo</button></a>
-                    </div>
-               
+                <div style="margin-top: 20px;">
+                    <a href="https://figma-website-02.vercel.app/"><button class="btn2">Live Demo</button></a>
+                </div>
+
 
             </div>
 
             <!-- Javascript -->
-            <div  data-aos="fade-up" data-aos-duration="2000" class="projectsec">
+            <div data-aos="fade-up" data-aos-duration="2000" class="projectsec">
                 <div style="padding-bottom: 20px;">
-                    <img src="colour.png" alt="Html" >
+                    <img src="colour.png" alt="Html">
                 </div>
                 <h3>Html And Css Website</h3>
-                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero qui accusantium obcaecati rem
-                    similique blanditiis sed aliquid quis. </h5>
+                <h6>A basic website is made using only HTML for structure and CSS for styling. </h6>
 
-                    <div style="margin-top: 20px;">
-                        <a href="https://figma-clone-website.vercel.app/"><button class="btn2">Live Demo</button></a>
-                    </div>
-               
+                <div style="margin-top: 20px;">
+                    <a href="https://figma-clone-website.vercel.app/"><button class="btn2">Live Demo</button></a>
+                </div>
+
 
             </div>
             <!-- REACt -->
-             <div  data-aos="fade-up" data-aos-duration="2000" class="projectsec">
+            <div data-aos="fade-up" data-aos-duration="2000" class="projectsec">
                 <div style="padding-bottom: 20px;">
-                    <img src="code.png" alt="Html" >
+                    <img src="code.png" alt="Html">
                 </div>
                 <h3>Furniture Website</h3>
-                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero qui accusantium obcaecati rem
-                    similique blanditiis sed aliquid quis. </h5>
+                <h6>Welcome to our furniture store, where style meets comfort. Explore our wide range of beautifully
+                    crafted sofas, tables, chairs, and beds designed to enhance your living space.</h6>
 
-                    <div style="margin-top: 20px;">
-                        <a href="https://hackathon-project-ecommerce-website.vercel.app/"><button class="btn2">Live Demo</button></a>
-                    </div>
-               
+                <div style="margin-top: 20px;">
+                    <a href="https://hackathon-project-ecommerce-website.vercel.app/"><button class="btn2">Live
+                            Demo</button></a>
+                </div>
+
 
             </div>
             <!-- Next.js -->
-            <div  data-aos="fade-up" data-aos-duration="2000" class="projectsec">
+            <div data-aos="fade-up" data-aos-duration="2000" class="projectsec">
                 <div style="padding-bottom: 20px;">
-                    <img src="code.png" alt="Html" >
+                    <img src="code.png" alt="Html">
                 </div>
                 <h3>Learning website</h3>
                 <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero qui accusantium obcaecati rem
                     similique blanditiis sed aliquid quis. </h5>
 
-                    <div style="margin-top: 20px;">
-                        <a href="https://figma-website-02.vercel.app/"><button class="btn2">Live Demo</button></a>
-                    </div>
-               
+                <div style="margin-top: 20px;">
+                    <a href="https://figma-website-02.vercel.app/"><button class="btn2">Live Demo</button></a>
+                </div>
+
 
             </div>
             <!-- Tailwind css -->
-              <div  data-aos="fade-up" data-aos-duration="2000" class="projectsec">
+            <div data-aos="fade-up" data-aos-duration="2000" class="projectsec">
                 <div style="padding-bottom: 20px;">
-                    <img src="code.png" alt="Html" >
+                    <img src="code.png" alt="Html">
                 </div>
                 <h3>Learning website</h3>
                 <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero qui accusantium obcaecati rem
                     similique blanditiis sed aliquid quis. </h5>
 
-                    <div style="margin-top: 20px;">
-                        <a href="https://figma-website-02.vercel.app/"><button class="btn2">Live Demo</button></a>
-                    </div>
-               
+                <div style="margin-top: 20px;">
+                    <a href="https://figma-website-02.vercel.app/"><button class="btn2">Live Demo</button></a>
+                </div>
+
 
             </div>
 
@@ -278,23 +256,24 @@
 
 
     <!-- Contact information -->
-    <div class="skills" id="contact">
+    <div class="contact" id="contact">
         <h1 id="skill">Contact</h1>
     </div>
 
 
-    <div>
+    <form>
         <div class="form-wrapper">
             <div class="form-container">
 
                 <div class="input-group">
-                    <Input data-aos="fade-up" data-aos-duration="1000" class="input-field" placeholder="Your Name *" />
-                    <Input data-aos="fade-up" data-aos-duration="1000" class="input-field" placeholder="Your Email *" />
-                    <Input data-aos="fade-up" data-aos-duration="1000" class="input-field" placeholder="Your Phone *" />
+                    <Input data-aos="fade-up" data-aos-duration="1000" class="input-field" type="text" placeholder="Your Name *" required />
+                    <Input data-aos="fade-up" data-aos-duration="1000" id="emailform" type="email" class="input-field"
+                        placeholder="Your Email *" />
+                    <Input data-aos="fade-up" data-aos-duration="1000" class="input-field" type="number" placeholder="Your Phone *" required />
                 </div>
 
                 <div class="textarea-container">
-                    <Input data-aos="fade-up" data-aos-duration="2000" class="message-box" placeholder="Your Message" />
+                    <Input data-aos="fade-up" data-aos-duration="2000" class="message-box" type="text" placeholder="Your Message" />
                 </div>
 
             </div>
@@ -302,10 +281,10 @@
 
         <div class="button-wrapper">
             <div class="button-container">
-                <button class="submit-button">Send Message</button>
+                <button type="submit" class="submit-button">Send Message</button>
             </div>
         </div>
-    </div>
+    </form>
 
 
 
@@ -324,11 +303,25 @@
     </div>
 
 
-   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
 
 </body>
 
